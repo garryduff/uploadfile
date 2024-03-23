@@ -2,6 +2,7 @@ import streamlit as st
 import openai
 
 st.write('Welcome to Upload')
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 # Streamlit app
 def main():
